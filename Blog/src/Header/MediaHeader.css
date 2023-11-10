@@ -1,0 +1,60 @@
+@media (min-width: 468px) and (max-width: 768px) {
+
+    .burger__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+        flex-direction: column;
+        width: 60px;
+        height: 55px;
+    }
+
+    .burger__item {
+        width: 60px;
+        height: 4px;
+        background-color: #fff;
+    }
+
+    .navbar {
+        padding-left: 0px;
+        padding-right: 30px;
+        display: flex;
+        justify-content: center;
+        column-gap: 114px;
+    }
+
+    .navbar__menu {
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar__menu a {
+        display: none;
+    }
+
+
+
+    .navbar__logo img {
+        display: none;
+    }
+
+    /* .navbar .navbar__logo {
+        transform: scale(1.09);
+        transition: transform .7s;
+        -webkit-transition: transform .7s;
+        -moz-transition: transform .7s;
+        -ms-transition: transform .7s;
+        -o-transition: transform .7s;
+        -webkit-transform: scale(1.09);
+        -moz-transform: scale(1.09);
+        -ms-transform: scale(1.09);
+        -o-transform: scale(1.09);
+    } */
+
+
+
+
+}

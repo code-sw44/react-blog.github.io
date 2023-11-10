@@ -1,0 +1,105 @@
+.blog {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    &__content {
+        width: 100%;
+        height: 520px;
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--Lavender, #F4F0F8);
+
+
+        &__container {
+            width: 55%;
+            height: 100%;
+            padding-top: 92px;
+            padding-bottom: 92px;
+            padding-left: 80px;
+            background: transparent;
+            display: flex;
+            justify-content: center;
+            row-gap: 32px;
+            align-items: start;
+            flex-direction: column;
+
+            &__h3 {
+                color: var(--Black, #232536);
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+            }
+
+            &__h2 {
+                color: var(--Black, #232536);
+
+                /* Heading H2 */
+                font-family: Sen;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 48px;
+                /* 133.333% */
+                letter-spacing: -2px;
+
+                width: 624px;
+            }
+
+            &__p1 {
+                color: var(--Dark-Grey, #4C4C4C);
+                font-family: Inter;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 20px;
+
+                span {
+                    color: var(--Purple, #592EA9);
+                }
+            }
+
+            &__p2 {
+                color: var(--Medium-grey, #6D6E76);
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+
+                width: 624px;
+            }
+
+            &__btn {
+                background: var(--Yellow, #FFD050);
+                display: inline-flex;
+                padding: 16px 48px;
+                align-items: flex-start;
+                gap: 12px;
+                color: var(--Black, #232536);
+                font-family: Sen;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+            }
+
+        }
+
+        &__container:nth-child(2) {
+            width: 45%;
+            height: 100%;
+            padding: 80px;
+            background: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
